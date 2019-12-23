@@ -1,3 +1,4 @@
+# Install Docker
 apt-get -y update
 
 apt-get -y install \
@@ -16,3 +17,6 @@ add-apt-repository \
 
 apt-get -y update
 apt-get -y install docker-ce docker-ce-cli containerd.io
+
+# Pull a container image
+docker pull ubuntu:16.04
